@@ -185,7 +185,7 @@ nodeAnalyzer:
     deploy: true
     image:
       repository: sysdig/node-image-analyzer
-      tag: 0.1.30
+      tag: 0.1.31
       digest:
       pullPolicy:
 
@@ -243,7 +243,7 @@ nodeAnalyzer:
     deploy: true
     image:
       repository: sysdig/host-analyzer
-      tag: 0.1.19
+      tag: 0.1.20
       digest:
       pullPolicy:
 
@@ -309,7 +309,7 @@ nodeAnalyzer:
     probesPort: 7002
     image:
       repository: sysdig/vuln-runtime-scanner
-      tag: "1.6.10"
+      tag: "1.6.11"
       digest:
       pullPolicy:
 
@@ -393,7 +393,7 @@ nodeAnalyzer:
 
     image:
       repository: sysdig/vuln-host-scanner
-      tag: "0.8.0"
+      tag: "0.8.1"
       digest:
       pullPolicy:
 

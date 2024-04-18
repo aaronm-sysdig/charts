@@ -10,6 +10,15 @@ Manual edits are supported only below '## Change Log' and should be used
 exclusively to fix incorrect entries and not to add new ones.
 
 ## Change Log
+# v1.26.3
+### Chores
+* **node-analyzer** [4670c8ab](https://github.com/sysdiglabs/charts/commit/4670c8abb12e776d150f0be469242a5ef0dab392): bump vuln-host-scanner to v0.8.1 ([#1682](https://github.com/sysdiglabs/charts/issues/1682))
+# v1.26.2
+### Chores
+* **node-analyzer** [4a193c1e](https://github.com/sysdiglabs/charts/commit/4a193c1ee0176568700347b0d700de8998c4da91): bump sysdig/vuln-runtime-scanner to v1.6.11 ([#1680](https://github.com/sysdiglabs/charts/issues/1680))
+# v1.26.1
+### New Features
+* **node-analyzer,sysdig** [0d01a78f](https://github.com/sysdiglabs/charts/commit/0d01a78fc90334248a34b4791d07722243cda234): Update legacy engine NIA/HostAnalyzer components with security updates ([#1679](https://github.com/sysdiglabs/charts/issues/1679))
 # v1.26.0
 ### New Features
 * **node-analyzer,kspm-collector** [7d1201fc](https://github.com/sysdiglabs/charts/commit/7d1201fc5d1bfc18e9cfc24ed621e76773405d64): Skip TLS certificate verification when using TLS Proxy & bump applications version ([#1665](https://github.com/sysdiglabs/charts/issues/1665))

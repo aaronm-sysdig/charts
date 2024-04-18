@@ -10,6 +10,21 @@ Manual edits are supported only below '## Change Log' and should be used
 exclusively to fix incorrect entries and not to add new ones.
 
 ## Change Log
+# v1.22.7
+### New Features
+* **agent** [41107025](https://github.com/sysdiglabs/charts/commit/41107025c4ff1c897fcd1783bc2a2ce7a4dd026a): add tag to distinguish delegated deployment agents ([#1701](https://github.com/sysdiglabs/charts/issues/1701))
+# v1.22.6
+### New Features
+* [359ac387](https://github.com/sysdiglabs/charts/commit/359ac3871f0e38a175802ed0e8f1c620b572e008): release agent 13.0.4 ([#1696](https://github.com/sysdiglabs/charts/issues/1696))
+# v1.22.5
+### New Features
+* **agent** [8977c6f0](https://github.com/sysdiglabs/charts/commit/8977c6f046d1e00b126e96cda77eebae9e382766): revert ensure os-release file is mounted ([#1686](https://github.com/sysdiglabs/charts/issues/1686))
+# v1.22.4
+### Chores
+* **agent** [208fc707](https://github.com/sysdiglabs/charts/commit/208fc7076e97d9d57ea422f7d3461b788f1a2204): revert ensure os-release file is mounted ([#1684](https://github.com/sysdiglabs/charts/issues/1684))
+# v1.22.3
+### New Features
+* **agent** [a8bce052](https://github.com/sysdiglabs/charts/commit/a8bce0521e81091a76754b55f43de3933bf5dde2): ensure os-release file is mounted ([#1625](https://github.com/sysdiglabs/charts/issues/1625))
 # v1.22.2
 ### New Features
 * [fcaa2e3a](https://github.com/sysdiglabs/charts/commit/fcaa2e3a55890783c20940527b2f584dd5637f91): release agent 13.0.3 ([#1668](https://github.com/sysdiglabs/charts/issues/1668))
