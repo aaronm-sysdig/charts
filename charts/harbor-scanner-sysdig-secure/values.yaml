@@ -90,4 +90,4 @@ inlineScanning:
   enabled: true
 
 asyncMode:
-  enabled: "false"
+  enabled: true
