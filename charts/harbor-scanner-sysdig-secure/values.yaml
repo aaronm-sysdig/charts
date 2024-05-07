@@ -86,7 +86,7 @@ proxy:
   # and you probably need to add your registry if it is inside the cluster
   noProxy:
 
-inlineScanning:
+CliScanning:
   enabled: true
 
 asyncMode:
