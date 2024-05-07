@@ -66,8 +66,8 @@ spec:
             {{- end }}
             - name: VERIFY_SSL
               value: "{{ .Values.sysdig.secure.verifySSL }}"
-            {{- if .Values.inlineScanning.enabled }}
-            - name: INLINE_SCANNING
+            {{- if .Values.CliScanning.enabled }}
+            - name: CLI_SCANNING
               value: "true"
             - name: ASYNC_MODE
               valueFrom:
