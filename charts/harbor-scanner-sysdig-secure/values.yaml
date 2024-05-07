@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: sysdiglabs/harbor-scanner-sysdig-secure
+  repository: miles3719/harbor-scanner-sysdig-secure
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
@@ -86,8 +86,8 @@ proxy:
   # and you probably need to add your registry if it is inside the cluster
   noProxy:
 
-inlineScanning:
+CliScanning:
   enabled: true
 
 asyncMode:
-  enabled: "false"
+  enabled: true
