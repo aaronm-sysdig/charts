@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: sysdiglabs/harbor-scanner-sysdig-secure
+  repository: miles3719/harbor-scanner-sysdig-secure
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
