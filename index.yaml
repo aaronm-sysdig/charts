@@ -12619,6 +12619,8 @@ entries:
         email: alvaro.iradier@sysdig.com
       - name: marcuzzuu
         email: marco.mancuso@sysdig.com
+    urls:
+    - https://github.com/aaronm-sysdig/charts/releases/download/harbor-scanner-sysdig-secure-0.7.0/harbor-scanner-sysdig-secure-0.7.0.tgz
   - apiVersion: v2
     appVersion: 0.6.0
     created: "2023-06-28T17:41:09.246703447Z"
