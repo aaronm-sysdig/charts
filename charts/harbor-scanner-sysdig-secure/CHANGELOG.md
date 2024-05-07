@@ -10,6 +10,8 @@ Manual edits are supported only below '## Change Log' and should be used
 exclusively to fix incorrect entries and not to add new ones.
 
 ## Change Log
+# v0.7.0
+### Updated for v2 scanning engine
 # v0.5.1
 ### Documentation
 * **harbor-scanner-sysdig-secure** [18d11b05](https://github.com/sysdiglabs/charts/commit/18d11b052618f7a8b31b5fcc56296e03ab5cc609): DOC-3231 - update for clarity and correctness ([#1176](https://github.com/sysdiglabs/charts/issues/1176))
