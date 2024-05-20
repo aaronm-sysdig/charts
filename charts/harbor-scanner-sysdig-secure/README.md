@@ -91,5 +91,6 @@ Sysdig Secure chart and their default values:
 | `proxy.httpProxy`                            | Specifies the URL of the proxy for HTTP connections. Leave empty if not using proxy. It sets the `http_proxy` environment variable. | ` `                                       |
 | `proxy.httpsProxy`                           | Specifies the URL of the proxy for HTTPS connections. Leave empty if not using proxy.  It sets the `https_proxy` environment variable. | ` `                                       |
 | `proxy.noProxy`                              | Specifies the comma-separated list of domain extensions proxy should not be used for. Includes the internal IP of the kube API server. | ` `                                       |
-| `inlineScanning.enabled`                     | Enables the Inline Scanning feature.                         | `true`                                    |
+| `cliScanning.enabled`                     | Enables the Cli Scanning feature.                         | `true`                                    |
+| `cliScanning.image`                     | The cli scanner image to use.                         | `sysdiglabs/sysdig-cli-scanner:0.1`                                    |
 | `asyncMode.enabled`                          | Enables the Async-Mode feature.                              | `false`                                   |
