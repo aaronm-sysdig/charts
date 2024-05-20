@@ -12620,7 +12620,7 @@ entries:
       - name: marcuzzuu
         email: marco.mancuso@sysdig.com
     urls:
-    - https://github.com/aaronm-sysdig/charts/releases/download/harbor-scanner-sysdig-secure-0.7.0/harbor-scanner-sysdig-secure-0.8.0.tgz
+    - https://github.com/aaronm-sysdig/charts/releases/download/harbor-scanner-sysdig-secure-0.8.0/harbor-scanner-sysdig-secure-0.8.0.tgz
   - apiVersion: v2
     name: harbor-scanner-sysdig-secure
     description: Harbor Scanner for Sysdig Secure
