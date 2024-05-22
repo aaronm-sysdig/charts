@@ -86,8 +86,9 @@ proxy:
   # and you probably need to add your registry if it is inside the cluster
   noProxy:
 
-CliScanning:
+cliScanning:
   enabled: true
-
+  image: miles3719/sysdig-cli-scanner
+  
 asyncMode:
   enabled: true
